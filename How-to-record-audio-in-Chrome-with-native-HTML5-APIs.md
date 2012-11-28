@@ -2,7 +2,7 @@
 
 Two weeks ago a [new version](http://googlechromereleases.blogspot.com/2012/11/stable-channel-release-and-beta-channel.html) of Chrome was released. Google switched from the default Adobe's Flash Player to an in-house developed version called "[Pepper Flash](http://blog.chromium.org/2012/08/the-road-to-safer-more-stable-and.html)". Unfortunately Pepper Flash has a [problem with audio recording](http://code.google.com/p/chromium/issues/detail?id=157613), resulting in [distorted audio](https://www.youtube.com/watch?v=3ugdk89ojxU) on almost all Macs.
 
-This happened right in the middle of our efforts to build our [Dubjoy](http://dubjoy.com) Editor, a browser-based, easy to use tool for translating (dubbing) online videos. Relying on Flash for audio recording was our first choice, but when confronted with this devastating issue, we started looking into other options. Using native HTML5 APIs seemed like a viable solution.
+This happened right in the middle of our efforts to build the [Dubjoy](http://dubjoy.com) Editor, a browser-based, easy to use tool for translating (dubbing) online videos. Relying on Flash for audio recording was our first choice, but when confronted with this devastating issue, we started looking into other options. Using native HTML5 APIs seemed like a viable solution.
 
 We started researching the space and checked a lot of sample code out there, but had limited success.
 
@@ -49,7 +49,7 @@ Everything seems easy and pretty straightforward, right? *Wrong!*
 
 When clicking the "start recording" button, a permission request to use the microphone appears. After allowing access the recording should start, but clicking on the "stop recording and play" button does absolutely nothing.
 
-Looks like the problem lies in assigning the recorded stream to the native audio source as it's done in the video sample on html5rocks:
+Looks like the problem lies in assigning the recorded stream to the native audio source as it's done in the [video sample on html5rocks](http://html5rocks.com/en/tutorials/getusermedia/intro):
 
     audio.src = window.URL.createObjectURL(stream);
 
@@ -68,7 +68,7 @@ To implement the recording functionality you need to buffer the returned raw aud
 
 Luckily there are libraries available that handle this for you. [Recorderjs](https://github.com/mattdiamond/Recorderjs) is the one we used and did the trick.
 
-The media stream source created above, can be passed as a parameter to the recorder object for buffering raw audio samples:
+The *media stream source* created above, can be passed as a parameter to the recorder object for buffering raw audio samples:
 
     recorder = new Recorder(mediaStreamSource);
     recorder.record();
@@ -133,7 +133,7 @@ Here's the full version of the HTML5 native audio recorder complete with playbac
 
 Unfortunately there’s a caveat. In the current stable version of Chrome, the support for native HTML5 audio playback is **not enabled by default**. For the code above to work you need to enable "Web Audio Input" in *chrome://flags*, which is a huge deal breaker for us.
 
-Before starting the development of our [Dubjoy](http://dubjoy.com) Editor, we decided to support Chrome as our only browser, because of it’s wide adoption on both Macs and Windows, auto-updates and the built-in Flash Player.
+Before starting the development of the [Dubjoy](http://dubjoy.com) Editor, we decided to support Chrome as our only browser, because of it’s wide adoption on both Macs and Windows, auto-updates and the built-in Flash Player.
 
 After trying hard to find a workaround, we’re still waiting for the Chrome team to fix the "[Pepper Flash Bug](http://code.google.com/p/chromium/issues/detail?id=157613)" (that in the meantime has spread to millions of users around the world) or to enable "Web Audio Input" by default in their stable version of Chrome.
 
