@@ -53,7 +53,7 @@ Looks like the problem lies in assigning the recorded stream to the native audio
 
     audio.src = window.URL.createObjectURL(stream);
 
-After playing around and searching the web for hours, we found countless posts of people asking on forums why it isn't working. The answer is that that the current implementation of Chrome returns raw audio samples. These are not playable by the native `<audio>` control.
+After playing around and searching the web for hours, we found countless posts of people asking on forums why it isn't working. The answer is that the current implementation of Chrome returns raw audio samples. These are not playable by the native `<audio>` control.
 
 What you need to do is to create an *audio context* and a *media stream source*:
 
@@ -64,7 +64,7 @@ These can be used for creating an audio loop that enables you to hear your own v
 
     mediaStreamSource.connect(context.destination);
 
-To implement the recording functionality you need to buffer the returned raw audio samples until the recording is done. If you want to play it back, you need to convert the buffered samples to a format that can be played natively by the audio control. This can be quite cumbersome and not something you want to spend your time with.
+To implement the recording functionality you need to buffer the returned raw audio samples until the recording is done. If you want to play it back, you need to convert the buffered samples to a format that can be played natively by the `<audio>` control. This can be quite cumbersome and not something you want to spend your time with.
 
 Luckily there are libraries available that handle this for you. [Recorderjs](https://github.com/mattdiamond/Recorderjs) is the one we used and did the trick.
 
