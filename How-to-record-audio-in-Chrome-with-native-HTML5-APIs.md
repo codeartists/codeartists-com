@@ -131,7 +131,7 @@ Here's the full version of the HTML5 native audio recorder complete with playbac
       </body>
     </html>
 
-Unfortunately there’s a caveat. In the current stable version of Chrome, the support for native HTML5 audio playback is not enabled by default. For the code above to work you need to enable "Web Audio Input" in chrome://flags, which is a huge deal breaker for us.
+Unfortunately there’s a caveat. In the current stable version of Chrome, the support for native HTML5 audio playback is **not enabled by default**. For the code above to work you need to enable "Web Audio Input" in *chrome://flags*, which is a huge deal breaker for us.
 
 Before starting the development of our [Dubjoy](http://dubjoy.com) Editor, we decided to support Chrome as our only browser, because of it’s wide adoption on both Macs and Windows, auto-updates and the built-in Flash Player.
 
