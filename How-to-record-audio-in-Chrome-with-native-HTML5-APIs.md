@@ -130,3 +130,5 @@ Here's the full version of the HTML5 native audio recorder complete with playbac
         </script>
       </body>
     </html>
+
+You can [download sample code](https://github.com/rokgregoric/html5record/archive/master.zip) from Github.
