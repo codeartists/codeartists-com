@@ -45,7 +45,7 @@ From what you can find on [html5rocks](http://html5rocks.com), capturing audio s
       </body>
     </html>
 
-Everything seems easy and pretty straightforward right? *Wrong!*
+Everything seems easy and pretty straightforward, right? *Wrong!*
 
 When clicking the "start recording" button, a permission request to use the microphone appears. After allowing access the recording should start, but clicking on the "stop recording and play" button does absolutely nothing.
 
@@ -130,5 +130,13 @@ Here's the full version of the HTML5 native audio recorder complete with playbac
         </script>
       </body>
     </html>
+
+Unfortunately there’s a caveat. In the current stable version of Chrome, the support for native HTML5 audio playback is not enabled by default. For the code above to work you need to enable "Web Audio Input" in chrome://flags, which is a huge deal breaker for us.
+
+Before starting the development of our [Dubjoy](http://dubjoy.com) Editor, we decided to support Chrome as our only browser, because of it’s wide adoption on both Macs and Windows, auto-updates and the built-in Flash Player.
+
+After trying hard to find a workaround, we’re still waiting for the Chrome team to fix the "[Pepper Flash Bug](http://code.google.com/p/chromium/issues/detail?id=157613)" (that in the meantime has spread to millions of users around the world) or to enable "Web Audio Input" by default in their stable version of Chrome.
+
+HTML5 is very promising and when browsers will support it widely, a lot of the problems we face today will disappear. But we’re not quite there yet.
 
 You can [download sample code](https://github.com/rokgregoric/html5record/archive/master.zip) from Github.
