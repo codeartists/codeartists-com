@@ -121,3 +121,5 @@ You can learn more about CORS here
 
 * http://www.html5rocks.com/en/tutorials/cors/
 * http://remysharp.com/2011/04/21/getting-cors-working/
+* http://s3.amazonaws.com/doc/s3-developer-guide/RESTAuthentication.html
+
