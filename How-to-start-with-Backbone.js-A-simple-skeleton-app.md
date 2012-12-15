@@ -29,7 +29,7 @@ Also, I'm developing on a Mac and have not tested this on other platforms. Altho
 <a name="philosophy"></a>
 ## 1. Philosophy
 
-Part of the success of [Rails](http://rubyonrails.com) was the conventions and it's predefined directory tree. While looking overwhelming and
+Part of the success of [Rails](http://rubyonrails.com) was the conventions and its predefined directory tree. While looking overwhelming and
 maybe annoying to a beginner at first, it soon becomes liberating. With experience things fall into place, and soon you feel
 feel like every tiny bit of code has it's dedicated home.
 
