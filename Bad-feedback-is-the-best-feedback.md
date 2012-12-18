@@ -1,6 +1,6 @@
 # Bad feedback = The best feedback
 
-It's holiday time. During this period of the year you spend time with people that are dear and near to your heart. After having lunch or dinner together you all seat around the table or on a couch and your uncle asks you how it's your startup going and what you are working on.
+It's holiday time. During this period of the year you spend time with people that are dear and near to your heart. After having lunch or dinner with your family you all seat around the table or on a couch and your uncle asks you how it's your startup going and what you are working on.
 
 Here comes your startup pitch. You start to explain what you and your buddies are working on, how this idea is so revolutionary that will change the world we know today. You are so excited about your idea that you are jumping on your seat. When you finally tell your whole story 20 minutes have passed. Then you ask your dears, what do they think about your idea.
 
