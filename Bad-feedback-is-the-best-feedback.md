@@ -2,7 +2,7 @@
 
 It's holiday time. During this period of the year you spend time with people that are dear and near to your heart. After having lunch or dinner with your family you all seat around the table or on a couch and your uncle asks you how it's your startup going and what you are working on.
 
-Here comes your startup pitch. You start to explain what you and your buddies are working on, how this idea is so revolutionary that will change the world we know today. You are so excited about your idea that you are jumping on your seat. When you finally tell your whole story 20 minutes have passed. Then you ask your dears, what do they think about your idea.
+Here comes your startup pitch. You start explaining what you and your buddies are working on, how this idea is so revolutionary that will change the world we know today. You are so excited about your idea that you are jumping on your seat. When you finally tell your whole story 20 minutes have passed. Then you ask your dears, what do they think about your idea.
 
 They all seam to agree that your idea is great and they compliment you. They all use words like good, great, awesome and you feel very positive about yourself.
 
@@ -20,7 +20,7 @@ You definitely don't want to develop a product for 6 months or a year, and only 
 
 That's why bad feedback is the best feedback and the only feedback you should be looking for.
 
-So, the next time when pitching your idea, ask people where they see potential problems. Help them start giving you bad feedback, make them feel confortable, tell them that you are too attached to your idea and that you need a critical eye to help you find and overcome problems you are not able to see by yourself.
+So, the next time when pitching your idea, ask people where they see potential problems. Help them start giving you bad feedback, make them feel comfortable, tell them that you are too attached to your idea and that you need a critical eye to help you find and overcome problems you are not able to see by yourself.
 
 This will help you more then you can immagine. Give it a try!
 
