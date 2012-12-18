@@ -20,6 +20,12 @@ You definitely don't want to develop a product for 6 months or a year, and only 
 
 That's why bad feedback is the best feedback and the only feedback you should be looking for.
 
-So, the next time when pitching your idea, ask people where they see potential problems. Help them start giving you bad feedback, make them feel confortable, tell them that you are too attached to your idea and that you need a critical eye to help you find and overcome problems you are not able to see by yourself. This will help you more then you can immagine. Give it a try!
+So, the next time when pitching your idea, ask people where they see potential problems. Help them start giving you bad feedback, make them feel confortable, tell them that you are too attached to your idea and that you need a critical eye to help you find and overcome problems you are not able to see by yourself.
+
+This will help you more then you can immagine. Give it a try!
+
+You can start by giving us feedback on our latest project called [Dubjoy](http://dubjoy.com).
+
+<a href="http://dubjoy.com"><img src="http://media.tumblr.com/tumblr_me7lakk15j1rwn17m.png" style="padding-left: 10px; padding-bottom: 10px; float: right;"></a>
 
 Rok Gregorič (@rokgregoric)
