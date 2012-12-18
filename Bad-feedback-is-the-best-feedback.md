@@ -16,11 +16,10 @@ The things you don't know is where your product sucks, where the UI is confusing
 
 If you don't want to hear negative things about your idea you will not be able to improve and find a product market fit. If you worry that you will not be able to change your product because you made the wrong assumption in its core, then is better to kill the idea early and pivot or change direction entirely rather than to procrastinate and postpone the inevitable.
 
-You definitely don't want to develop a product for 6 months or a year, and only then find out that your idea is bad. The more time you invest into building your product, the more omotionally attached you will be to it.
+You definitely don't want to develop a product for 6 months or a year, and only then find out that your idea is bad. The more time you invest into building your product, the more emotionally attached you will be to it.
 
 That's why bad feedback is the best feedback and the only feedback you should be looking for.
 
 So, the next time when pitching your idea, ask people where they see potential problems. Help them start giving you bad feedback, make them feel confortable, tell them that you are too attached to your idea and that you need a critical eye to help you find and overcome problems you are not able to see by yourself. This will help you more then you can immagine. Give it a try!
 
 Rok Gregorič (@rokgregoric)
-
